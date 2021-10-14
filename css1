@@ -1,0 +1,42 @@
+*{margin: 0;padding: 0;border: 0;list-style: none;text-decoration: none;color: inherit;font-weight: normal;font-family: "微软雅黑";box-sizing: border-box;font-style: normal;outline: none;-webkit-tap-highlight-color: transparent;}
+body{width: 100%;overflow-x: hidden;background: url(../images/head-bg.png) top left no-repeat #2767e8;background-size: 100% auto;color: #ac6003;}
+img{vertical-align: middle;max-width: 100%;}
+.container{width: 100%;padding: .3rem;}
+/* 大转盘
+更多精品模板：http://www.bootstrapmb.com
+ */
+.lottery{width: 100%;height: auto;display: flex;flex-direction: column;align-items: center;padding-top: 4.45rem;}
+.lottery .zhuanpan{position: relative;width: 5.3rem;height: 5.3rem;box-shadow: 0 0 .3rem rgba(251,40,30,.3);border-radius: 50%;z-index: 9;}
+.lottery .zhuanpan .turn{width: 100%;}
+.lottery .zhuanpan .control{position: absolute;top: 48%;left: 50%;transform: translate(-50%,-50%);width: 1.53rem;height: 1.84rem;}
+.lottery .btn{width: 100%;padding: .45rem .32rem;padding-top: 1rem;}
+.lottery .btn button{width: 100%;height: 1rem;line-height: 1rem;font-size: .3rem;color: #fff;background: #ffc924;border-radius: 1rem;box-shadow: 0 .1rem 0 #0013be;}
+/* 面板卡片 */
+.card{width: 100%;padding: .3rem .4rem;background: #fff;border-radius: .2rem;margin-bottom: .5rem;}
+.card .title{width: 100%;display: flex;justify-content: center;align-items: center;padding-bottom: .3rem;}
+.card .title span{font-size: .3rem;padding: 0 .38rem;font-weight: bold;}
+.card .title i{display: inline-block;width: .2rem;height: .2rem;background: #ffc924;transform: rotate(45deg);}
+/* 获奖名单 */
+.hjmd .table{width: 100%;max-height: 3.88rem;overflow-y: auto;}
+.hjmd table {width: 100%;}
+.hjmd table th{font-size: .24rem;color: #999999;padding-bottom: .05rem;}
+.hjmd table th:nth-child(1),.hjmd table td:nth-child(1){width: 25%;text-align: left;}
+.hjmd table th:nth-child(2),.hjmd table td:nth-child(2){width: 50%;text-align: center;}
+.hjmd table th:nth-child(3),.hjmd table td:nth-child(3){width: 25%;text-align: center;}
+.hjmd table td{font-size: .28rem;color: #333333;padding: .1rem 0;}
+/* 礼物免费领 */
+.lwmfl .subtitle{color:#ac6003;font-size: .28rem;text-align: center;padding-bottom: .35rem;}
+.lwmfl .hongbao.t{display: flex;justify-content: center;}
+.lwmfl .hongbao.b{display: flex;justify-content: space-between;}
+.lwmfl .hongbao .item{text-align: center;margin-bottom: .4rem;}
+.lwmfl .hongbao .item .img{display: inline-block;position: relative;margin-bottom: .2rem;}
+.lwmfl .hongbao .item .img span{position: absolute;display: block;width: 100%;bottom: .25rem;font-size: .24rem;color: #fff;text-align: center;}
+.lwmfl .hongbao .item img{width: 1.02rem;height: 1.36rem;}
+.lwmfl .hongbao .item p{font-size:.28rem;color:#ac6003;letter-spacing: .01rem;}
+/* 通用列表 */
+.card .list ul li{display: flex;justify-content: space-between;align-items: center;font-size: .28rem;padding-left: .45rem;margin-bottom: .5rem;position: relative;}
+.card .list ul li button{width: 1.6rem;height: .5rem;line-height: .5rem;border-radius: .5rem;background: #ffc924;color: #ac6003;font-size: .28rem;}
+.card .list ul li::after{content: "";position: absolute;display: block;width: .18rem;height: .18rem;background: #cc901a;left: 0;top: 50%;transform: translateY(-50%);border-radius: 50%;}
+.card .list ul li:last-child{margin-bottom: .3rem;}
+/* 领取任务 */
+.card.hdgz {padding-right: .7rem;}
